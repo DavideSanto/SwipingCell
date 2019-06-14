@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2746BB7709FF8A1141DEFD28 /* Pods_SwipingCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA21801CFC5E11A2AE0477A0 /* Pods_SwipingCell.framework */; };
 		AAF339EA22AFE7640010957B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF339E922AFE7640010957B /* AppDelegate.swift */; };
-		AAF339EC22AFE7640010957B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF339EB22AFE7640010957B /* ViewController.swift */; };
 		AAF339EF22AFE7640010957B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF339ED22AFE7640010957B /* Main.storyboard */; };
 		AAF339F222AFE7640010957B /* SwipingCell.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAF339F022AFE7640010957B /* SwipingCell.xcdatamodeld */; };
 		AAF339F422AFE76E0010957B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAF339F322AFE76E0010957B /* Assets.xcassets */; };
 		AAF339F722AFE76E0010957B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF339F522AFE76E0010957B /* LaunchScreen.storyboard */; };
+		AAF339FF22AFE9A20010957B /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF339FE22AFE9A20010957B /* MyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AAF339E622AFE7640010957B /* SwipingCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipingCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF339E922AFE7640010957B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AAF339EB22AFE7640010957B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AAF339EE22AFE7640010957B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAF339F122AFE7640010957B /* SwipingCell.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwipingCell.xcdatamodel; sourceTree = "<group>"; };
 		AAF339F322AFE76E0010957B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAF339F622AFE76E0010957B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAF339F822AFE76E0010957B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAF339FE22AFE9A20010957B /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		BA21801CFC5E11A2AE0477A0 /* Pods_SwipingCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipingCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B68C5FCD549EA1865F6BAF /* Pods-SwipingCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipingCell.debug.xcconfig"; path = "Target Support Files/Pods-SwipingCell/Pods-SwipingCell.debug.xcconfig"; sourceTree = "<group>"; };
+		ECB68645060A66AC7BEBFC1E /* Pods-SwipingCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipingCell.release.xcconfig"; path = "Target Support Files/Pods-SwipingCell/Pods-SwipingCell.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2746BB7709FF8A1141DEFD28 /* Pods_SwipingCell.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		696D95101F95FBD2D12DE4BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1B68C5FCD549EA1865F6BAF /* Pods-SwipingCell.debug.xcconfig */,
+				ECB68645060A66AC7BEBFC1E /* Pods-SwipingCell.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AAF339DD22AFE7640010957B = {
 			isa = PBXGroup;
 			children = (
 				AAF339E822AFE7640010957B /* SwipingCell */,
 				AAF339E722AFE7640010957B /* Products */,
+				696D95101F95FBD2D12DE4BB /* Pods */,
+				C6B33F9A945024818CC21926 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,7 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				AAF339E922AFE7640010957B /* AppDelegate.swift */,
-				AAF339EB22AFE7640010957B /* ViewController.swift */,
+				AAF339FE22AFE9A20010957B /* MyTableViewController.swift */,
 				AAF339ED22AFE7640010957B /* Main.storyboard */,
 				AAF339F322AFE76E0010957B /* Assets.xcassets */,
 				AAF339F522AFE76E0010957B /* LaunchScreen.storyboard */,
@@ -67,6 +83,14 @@
 			path = SwipingCell;
 			sourceTree = "<group>";
 		};
+		C6B33F9A945024818CC21926 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA21801CFC5E11A2AE0477A0 /* Pods_SwipingCell.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AAF339FB22AFE76E0010957B /* Build configuration list for PBXNativeTarget "SwipingCell" */;
 			buildPhases = (
+				5D4D3A871885094927A8B8F3 /* [CP] Check Pods Manifest.lock */,
 				AAF339E222AFE7640010957B /* Sources */,
 				AAF339E322AFE7640010957B /* Frameworks */,
 				AAF339E422AFE7640010957B /* Resources */,
+				BDB2B9BDD1A7E8FEEB92D28C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +159,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5D4D3A871885094927A8B8F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwipingCell-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDB2B9BDD1A7E8FEEB92D28C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwipingCell/Pods-SwipingCell-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MGSwipeTableCell/MGSwipeTableCell.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGSwipeTableCell.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwipingCell/Pods-SwipingCell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AAF339E222AFE7640010957B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAF339EC22AFE7640010957B /* ViewController.swift in Sources */,
 				AAF339F222AFE7640010957B /* SwipingCell.xcdatamodeld in Sources */,
+				AAF339FF22AFE9A20010957B /* MyTableViewController.swift in Sources */,
 				AAF339EA22AFE7640010957B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +357,7 @@
 		};
 		AAF339FC22AFE76E0010957B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1B68C5FCD549EA1865F6BAF /* Pods-SwipingCell.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +376,7 @@
 		};
 		AAF339FD22AFE76E0010957B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECB68645060A66AC7BEBFC1E /* Pods-SwipingCell.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
